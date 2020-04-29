@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/varun-kulkarni.github.io/dist/issues"
   },
-  "homepage": "https://github.com/varun-kulkarni.github.io/dist#readme"
+  "homepage": "https://github.com/varun-kulkarni.github.io/dist#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
