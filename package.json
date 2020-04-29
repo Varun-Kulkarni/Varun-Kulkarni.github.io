@@ -1,0 +1,19 @@
+{
+  "name": "vkulkarnipage.2020",
+  "version": "1.0.0",
+  "description": "Revamped personal webpage with openet stuff too",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varun-kulkarni.github.io/dist.git"
+  },
+  "author": "Varun Kulkarni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varun-kulkarni.github.io/dist/issues"
+  },
+  "homepage": "https://github.com/varun-kulkarni.github.io/dist#readme"
+}
