@@ -1,0 +1,17 @@
+.skill-item {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.skill-icon-cont img {
+    flex-grow: 2;
+    min-height: 20px;
+    max-height: 30px;
+    height: 2vw;
+}
+.skill-text {
+    font-size: .64em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-left: 1vw;
+}

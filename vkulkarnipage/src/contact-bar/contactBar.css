@@ -6,13 +6,10 @@
 .contact-icon {
     /* background: red; */
     width: 64px;
-    width: 25vw;
+    width: 10vw;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-}
-.contact-icon img {
-    width: 100%;
 }
 a span {
     height: 1px;

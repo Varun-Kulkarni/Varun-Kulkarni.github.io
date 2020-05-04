@@ -129,8 +129,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="730.83435"
-     inkscape:cy="-3254.2119"
+     inkscape:cx="1695.752"
+     inkscape:cy="-829.84581"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -152,7 +152,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -397,22 +397,22 @@
          x="434.04568"
          y="481.54761"
          style="stroke-width:0.26458332"
-         id="tspan4982">Languages</tspan><tspan
+         id="tspan4982">Languages: Java, C, JS, Python, HTML, CSS, Matlab, Swift</tspan><tspan
          sodipodi:role="line"
          x="434.04568"
          y="494.77676"
          style="stroke-width:0.26458332"
-         id="tspan4988">Tools &amp; Software</tspan><tspan
+         id="tspan4988">Tools &amp; Software: Git, Ubuntu, RH Server, ElasticSearch, Logstash, Kibana, Grafana, Inkscape, Xcode</tspan><tspan
          sodipodi:role="line"
          x="434.04568"
          y="508.00595"
          style="stroke-width:0.26458332"
-         id="tspan4992">Cloud</tspan><tspan
+         id="tspan4992">Cloud: AWS</tspan><tspan
          sodipodi:role="line"
          x="434.04568"
          y="521.23511"
          style="stroke-width:0.26458332"
-         id="tspan4994">Certificates</tspan><tspan
+         id="tspan4994">Certificates: AWS SAA</tspan><tspan
          sodipodi:role="line"
          x="434.04568"
          y="534.46429"

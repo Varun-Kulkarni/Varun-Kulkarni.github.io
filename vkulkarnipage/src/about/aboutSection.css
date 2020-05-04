@@ -1,5 +1,6 @@
-.row {
+#about-container {
     height: 100%;
+    font-size: 1rem;
 }
 .portrait-img {
     display: block;
@@ -9,12 +10,14 @@
 }
 .general-header {
     font-family: 'Rubik', sans-serif;
-    font-size: 2em;
+    font-weight: 500;
+    font-size: 1.953em;
 }
+
 .text {
     font-family: 'IBM Plex Sans', sans-serif;
     margin-right: 1em;
-    font-size: .8em;
+    font-size: .64em;
 }
 @media screen and (max-width: 576px) {
     .portrait-img {
