@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
+import ContactBar from '../contact-bar/contactBar';
 import './aboutSection.css';
-import gitSvg from './icons/gitLogo.svg';
-import mailSvg from './icons/mailto.svg';
-import linkedinSvg from './icons/linkedin.svg';
 
 const portrait = require('./portrait/portrait-square-full.jpg');
 class AboutSection extends Component {
@@ -24,11 +22,7 @@ class AboutSection extends Component {
                         <div className="text">I love building with a focus on implementation, solving problems, and I know that a good product not only gets the job done, but also appeals visually while doing the job.  If I sound like someone who could lend a hand, or if any of you just wanna chat, reach out!</div>
                     </div>
                     <br></br>
-                    <div className="mx-auto contacts-container">
-                        <a href="https://github.com/Varun-Kulkarni" className="contact-icon" style={{backgroundImage: `url(${gitSvg})`}}><span>Click to Access Github</span></a>
-                        <a href="https://www.linkedin.com/in/varunkulkarni18/"className="contact-icon" style={{backgroundImage: `url(${linkedinSvg})`}}><span>Click to Access LinkedIn</span></a>
-                        <a href="mailto:kulkarni.varun22@gmail.com" className="contact-icon" style={{backgroundImage: `url(${mailSvg})`}}><span>Click to send e-mail</span></a>
-                    </div>
+                    <ContactBar />
                 </div>
             </div>
         );
