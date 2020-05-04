@@ -1,0 +1,49 @@
+.row {
+    height: 100%;
+}
+.contacts-container {
+    height: 2.5em;
+    width: 80%;
+    display: flex;
+}
+.contact-icon {
+    /* background: red; */
+    width: 64px;
+    width: 25vw;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact-icon img {
+    width: 100%;
+}
+.portrait-img {
+    display: block;
+    width: 80%;
+    -webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 80% 100%);
+    clip-path: polygon(0 100%, 0 0, 100% 0, 80% 100%);
+}
+.general-header {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2em;
+}
+.text {
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-right: 1em;
+    font-size: .8em;
+}
+@media screen and (max-width: 576px) {
+    .portrait-img {
+        -webkit-clip-path: circle(50% at center);
+        clip-path: circle(50% at center);
+        width: 100%;
+    }
+    .row {
+        height: inherit;
+    }
+}
+/* @media screen and (max-height: 50em) {
+    .row {
+        height: inherit;
+    }
+} */

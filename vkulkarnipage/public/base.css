@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    /* font-size: 2vw; */
+    font-size: calc(1rem + 1vw);
+    /* font-size: calc(16px + (24-16) * (100vw-400px) / (1400-400)); */
+}
+@media screen and (min-width: 50rem) {
+    html {
+        font-size: 2vw;
+    }
+}
+@media screen and (min-width: 90rem) {
+    html {
+      font-size: 2rem;
+    }
+  }
