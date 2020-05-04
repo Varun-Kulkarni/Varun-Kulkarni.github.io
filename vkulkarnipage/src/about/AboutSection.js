@@ -3,7 +3,6 @@ import './aboutSection.css';
 import gitSvg from './icons/gitLogo.svg';
 import mailSvg from './icons/mailto.svg';
 import linkedinSvg from './icons/linkedin.svg';
-import phoneSvg from './icons/phone.svg';
 
 const portrait = require('./portrait/portrait-square-full.jpg');
 class AboutSection extends Component {
@@ -26,10 +25,9 @@ class AboutSection extends Component {
                     </div>
                     <br></br>
                     <div className="mx-auto contacts-container">
-                        <a href="https://github.com/Varun-Kulkarni" className="contact-icon" style={{backgroundImage: `url(${gitSvg})`}}></a>
-                        <a href="https://www.linkedin.com/in/varunkulkarni18/"className="contact-icon" style={{backgroundImage: `url(${linkedinSvg})`}}></a>
-                        <a href="mailto:kulkarni.varun22@gmail.com" className="contact-icon" style={{backgroundImage: `url(${mailSvg})`}}></a>
-                        <a href="tel:703-946-2874" className="contact-icon" style={{backgroundImage: `url(${phoneSvg})`}}></a>
+                        <a href="https://github.com/Varun-Kulkarni" className="contact-icon" style={{backgroundImage: `url(${gitSvg})`}}><span>Click to Access Github</span></a>
+                        <a href="https://www.linkedin.com/in/varunkulkarni18/"className="contact-icon" style={{backgroundImage: `url(${linkedinSvg})`}}><span>Click to Access LinkedIn</span></a>
+                        <a href="mailto:kulkarni.varun22@gmail.com" className="contact-icon" style={{backgroundImage: `url(${mailSvg})`}}><span>Click to send e-mail</span></a>
                     </div>
                 </div>
             </div>
