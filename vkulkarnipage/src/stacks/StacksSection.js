@@ -1,10 +1,24 @@
 import React, {Component} from 'react';
 import SkillItem from './SkillItem';
+import CertBadge from '../cert-badge/certBadge';
 import './stacksSection.css';
-const javaLogo = process.env.PUBLIC_URL + '/img/javalogo.svg';
-const cLogo = process.env.PUBLIC_URL + 'img/clogo.svg';
-
-
+const imgRoot = process.env.PUBLIC_URL + 'img/';
+const javaLogo          = imgRoot + 'javalogo.svg';
+const cLogo             = imgRoot + 'clogo.svg';
+const pythonLogo        = imgRoot + 'pythonlogo.svg';
+const jsLogo            = imgRoot + 'jslogo.svg';
+const reactLogo         = imgRoot + 'reactlogo.svg';
+const htmlLogo          = imgRoot + 'htmllogo.svg';
+const cssLogo           = imgRoot + 'csslogo.svg';
+const swiftLogo         = imgRoot + 'swiftlogo.svg';
+const gitLogo           = imgRoot + 'gitlogo.svg';
+const ubuntoLogo        = imgRoot + 'ubuntulogo.svg';
+const elasticLogo       = imgRoot + 'elasticlogo.svg';
+const grafanaLogo       = imgRoot + 'grafanalogo.svg';
+const inkscapeLogo      = imgRoot + 'inkscapelogo.svg';
+const xcodeLogo         = imgRoot + 'xcodelogo.svg';
+const awsLogo           = imgRoot + 'awslogo.svg';
+const certLogo          = imgRoot + 'aws-certified-solutions-architect-associate.png';
 
 class StacksSection extends Component {
     render() {
@@ -17,30 +31,29 @@ class StacksSection extends Component {
                             <div className="stack-header">Languages</div>
                             <SkillItem skill="Java" imgsrc={javaLogo}/>
                             <SkillItem skill="C" imgsrc={cLogo}/>
-                            <SkillItem skill="Python" imgsrc={cLogo} />
-                            <SkillItem skill="Javascript" imgsrc={cLogo} />
-                            <SkillItem skill="JSX/React" imgsrc={cLogo} />
-                            <SkillItem skill="HTML" imgsrc={cLogo} />
-                            <SkillItem skill="CSS" imgsrc={cLogo} />
-                            <SkillItem skill="Swift" imgsrc={cLogo} />
+                            <SkillItem skill="Python" imgsrc={pythonLogo} />
+                            <SkillItem skill="Javascript" imgsrc={jsLogo} />
+                            <SkillItem skill="JSX/React" imgsrc={reactLogo} />
+                            <SkillItem skill="HTML" imgsrc={htmlLogo} />
+                            <SkillItem skill="CSS" imgsrc={cssLogo} />
+                            <SkillItem skill="Swift" imgsrc={swiftLogo} />
                         </div>
                         <div className="col-sm-3">
                             <div className="stack-header">Software</div>
-                            <SkillItem skill="Git" imgsrc={cLogo} />
-                            <SkillItem skill="Ubuntu" imgsrc={cLogo} />
-                            <SkillItem skill="Red Hat Server" imgsrc={cLogo} />
-                            <SkillItem skill="ElasticSearch, Logstash, Kibana (ELK)" imgsrc={cLogo} />
-                            <SkillItem skill="Grafana" imgsrc={cLogo} />
-                            <SkillItem skill="Inkscape" imgsrc={cLogo} />
-                            <SkillItem skill="Xcode" imgsrc={cLogo} />
+                            <SkillItem skill="Git" imgsrc={gitLogo} />
+                            <SkillItem skill="Ubuntu" imgsrc={ubuntoLogo} />
+                            <SkillItem skill="ElasticSearch, Logstash, Kibana (ELK)" imgsrc={elasticLogo} />
+                            <SkillItem skill="Grafana" imgsrc={grafanaLogo} />
+                            <SkillItem skill="Inkscape" imgsrc={inkscapeLogo} />
+                            <SkillItem skill="Xcode" imgsrc={xcodeLogo} />
                         </div>
                         <div className="col-sm-3">
                             <div className="stack-header">Cloud</div>
-                            <SkillItem skill="Amazon Web Services" imgsrc={cLogo} />
+                            <SkillItem skill="Amazon Web Services" imgsrc={awsLogo} />
                         </div>
                         <div className="col-sm-3">
                             <div className="stack-header">Certificates</div>
-                            <SkillItem skill="Amazon Web Services, Solutions Architect Associate" imgsrc={cLogo} />
+                            <CertBadge imgURL={certLogo} alt="AWS Certified Solutions Architect, Associate Badge" />
                         </div>
                     </div>
                 </div>

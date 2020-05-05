@@ -6,9 +6,8 @@
 }
 .skill-icon-cont img {
     flex-grow: 2;
-    min-height: 20px;
-    max-height: 30px;
-    height: 2vw;
+    min-height: 30px;
+    width: 2vw;
 }
 .skill-text {
     font-size: .64em;
