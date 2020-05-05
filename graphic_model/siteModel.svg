@@ -129,8 +129,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="1695.752"
-     inkscape:cy="-829.84581"
+     inkscape:cx="620.9497"
+     inkscape:cy="-2607.7143"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -438,43 +438,12 @@
        width="533.70239"
        id="rect5026"
        style="fill:url(#linearGradient5028);fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="75.904549"
-       y="744.40912"
-       id="text5038"><tspan
-         sodipodi:role="line"
-         id="tspan5036"
-         x="75.904549"
-         y="744.40912"
-         style="stroke-width:0.26458332">Display as </tspan><tspan
-         sodipodi:role="line"
-         x="75.904549"
-         y="757.63831"
-         style="stroke-width:0.26458332"
-         id="tspan5046">Simple cards (MDL?)</tspan><tspan
-         sodipodi:role="line"
-         x="75.904549"
-         y="770.86743"
-         style="stroke-width:0.26458332"
-         id="tspan5050">2 Bullets Max</tspan><tspan
-         sodipodi:role="line"
-         x="75.904549"
-         y="784.09662"
-         style="stroke-width:0.26458332"
-         id="tspan5054">Stack involved bullet</tspan><tspan
-         sodipodi:role="line"
-         x="75.904549"
-         y="797.32581"
-         style="stroke-width:0.26458332"
-         id="tspan5058" /></text>
     <rect
-       style="fill:#4ca1cd;fill-opacity:0.54740059;stroke:#000000;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#4ca1cd;fill-opacity:0.54740062;stroke:#000000;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5060"
        width="533.70239"
        height="266.8512"
-       x="-134.55952"
+       x="-134.55951"
        y="916.88098" />
     <text
        id="text5080"
@@ -557,5 +526,23 @@
          y="1226.9635"
          style="stroke-width:0.26458332"
          id="tspan5147">Link Buttons, Resume Link, Poly Portrait in the middle</tspan></text>
+    <rect
+       style="fill:#f0db4f;fill-opacity:1;stroke:#000000;stroke-width:3.22156096;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect918"
+       width="275.52805"
+       height="164.8829"
+       x="62.151348"
+       y="691.1001" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -41.159506,673.85003 V 903.16726"
+       id="path977"
+       inkscape:connector-curvature="0" />
+    <circle
+       style="fill:#ffdf00;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path979"
+       cx="-41.159508"
+       cy="714.47498"
+       r="10.69078" />
   </g>
 </svg>
