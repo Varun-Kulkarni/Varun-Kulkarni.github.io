@@ -20,6 +20,9 @@
     font-size: .64em;
 }
 @media screen and (max-width: 576px) {
+    #about-container {
+        height: inherit;
+    }
     .portrait-img {
         -webkit-clip-path: circle(50% at center);
         clip-path: circle(50% at center);
