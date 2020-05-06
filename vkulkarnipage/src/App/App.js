@@ -4,7 +4,7 @@ import './App.css';
 /** Modules **/
 import AboutSection from '../about/AboutSection';
 import StacksSection from '../stacks/StacksSection';
-
+import ProjectSection from '../projects/ProjectSection';
 function App() {
   return (
     <div className="App">
@@ -12,6 +12,7 @@ function App() {
         <div className="App-main container">
           <AboutSection />
           <StacksSection />
+          <ProjectSection />
         </div>
       </header>
     </div>

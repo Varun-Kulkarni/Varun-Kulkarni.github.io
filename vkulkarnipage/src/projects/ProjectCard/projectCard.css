@@ -1,0 +1,7 @@
+.card-container {
+    height: 100%;
+    border: 1px solid blue;
+}
+.card-text-container {
+    border: 1px solid green;
+}
