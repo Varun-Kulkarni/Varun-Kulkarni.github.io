@@ -1,7 +1,32 @@
 .card-container {
-    height: 100%;
-    border: 1px solid blue;
+    height: 50vh;
+}
+@media screen and (max-width: 576px) {
+    .card-image-container {
+        padding: 1rem;   
+    }
 }
 .card-text-container {
-    border: 1px solid green;
+    font-size: 1rem;
+}
+.project-text {
+    font-size: .64em;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+    .proj-svg-cont-1 {
+        display: none;
+    }
+    proj-svg-cont-2 {
+        display: block;
+    }
+}
+@media screen and (min-width: 576px) {
+    .proj-svg-cont-1 {
+        display: block;
+    }
+    .proj-svg-cont-2 {
+        display: none;
+    }
 }
