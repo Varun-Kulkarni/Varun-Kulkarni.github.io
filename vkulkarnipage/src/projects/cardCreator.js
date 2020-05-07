@@ -31,10 +31,10 @@ const projectTitles = [
 
 const projectYears = {
     "EcoCAR VIP": "2019 - 2020",
-    "COMP"      : "2019",
-    "Web Design": "2018",
-    "SeeCodeRun": "2017",
-    "Photon"    : "2016"
+    "COMP"      : "Jun - Aug 2019",
+    "Web Design": "2015 & 2018",
+    "SeeCodeRun": "Jun - Aug 2017",
+    "Photon"    : "Jun - Aug 2016"
 };
 const projectImage = {
     "Photon": [require(imagesUrl + "photon.svg")]
