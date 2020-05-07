@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import './contactBar.css';
-import gitSvg from './icons/gitLogo.svg';
 import mailSvg from './icons/mailto.svg';
 import linkedinSvg from './icons/linkedin.svg';
+
+const gitSvg = process.env.PUBLIC_URL + '/img/gitlogo.svg';
 class ContactBar extends Component {
     render() {
         return (

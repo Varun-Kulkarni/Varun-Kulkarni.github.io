@@ -19,6 +19,7 @@ const inkscapeLogo      = imgRoot + 'inkscapelogo.svg';
 const xcodeLogo         = imgRoot + 'xcodelogo.svg';
 const awsLogo           = imgRoot + 'awslogo.svg';
 const certLogo          = imgRoot + 'aws-certified-solutions-architect-associate.png';
+const matlabLogo        = imgRoot + 'matlablogo.png';
 
 class StacksSection extends Component {
     render() {
@@ -37,6 +38,8 @@ class StacksSection extends Component {
                             <SkillItem skill="HTML" imgsrc={htmlLogo} />
                             <SkillItem skill="CSS" imgsrc={cssLogo} />
                             <SkillItem skill="Swift" imgsrc={swiftLogo} />
+                            <SkillItem skill="MATLAB" imgsrc={matlabLogo} />
+
                         </div>
                         <div className="col-sm-3">
                             <div className="stack-header">Software</div>
