@@ -71,13 +71,12 @@ const firstParagraphs = {
 }
 
 const secondParagraphs = {
-    "Photon":"",
+    "Photon":<div><li>How to design effective UI elements, icons, and backgrounds with SVG tools</li><li>How to work with APIs like the iOS <code>EKCalendar</code> interface</li><li>How to use tools like Xcode to combine UI with code and manage basic testing of both</li></div>,
     "SeeCodeRun": <div>The feature works as such:<ul><li>When a user hovers over a line of Javascript which modifies an element (such as addClass), all elements directly affected that line are highlighted in live preview. </li><li>Lines are also color coded based on unique objects that they modify, and when a user hovers over an object in the Javascript Document Object Model (DOM), it will highlight in a corresponding color if there is such a line which has direclty modified its visual properties.</li></ul>Though SeeCodeRun is now a completed project and didn't implement my experimental feature in the final release, I was able to learn a lot about Javascript, the (DOM), how large JS applications beyond simple webpages are made, and effective code review and version control techniques.  This university internship was also my first major interaction with software academia, which I met as I reviewed papers, attended meetings, &amp; presented to researchers.</div>,
     "Web Design": "The second full website I developed was for my school's synthetic biology team.  This was the first site I used front end frameworks on and I learned a good chunk of the frontend I know through building this project, from SVG graphics to parallax, to cleaner Responsive Web design.  The website shows information about the synthetic bio team, the projects they work on, community outreach events, and more.  Click the links below to see the sites!"
 }
 
 const unorderedList = {
-    "Photon": <div><li>How to design effective UI elements, icons, and backgrounds with SVG tools</li><li>How to work with APIs like the iOS <code>EKCalendar</code> interface</li><li>How to use tools like Xcode to combine UI with code and manage basic testing of both</li></div>
 }
 
 

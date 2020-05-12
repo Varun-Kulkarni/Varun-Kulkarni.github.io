@@ -3,6 +3,9 @@ import './projectCard.css';
 import SingleImageLayout from './imageLayouts/singleLayout';
 import DoubleImageLayout from './imageLayouts/doubleLayout';
 import CircleSvg from './circleSvg';
+const  vklogo = process.env.PUBLIC_URL + '/img/VKLogo.svg';
+
+// import LogoSeparator from './logoSeparator';
 
 // const aLogo = process.env.PUBLIC_URL + '/img/xcodelogo.svg';
 // const aSecondLogo = process.env.PUBLIC_URL + '/img/swiftlogo.svg';
@@ -41,13 +44,15 @@ class ProjectCard extends Component {
                     </div>
                     <div className="project-text">
                         <div>{this.props.firstText}</div>
-                        <br></br>
                         <div>{this.props.secondText}</div>
                         <ul>{this.props.listHTML}</ul>
                     </div>
                 </div>
-                <div className="col-sm proj-svg-cont-2">
-                    <CircleSvg />
+                <div className="proj-svg-cont-2">
+                    <div className="d-flex justify-content-center">
+                        <img src={vklogo} alt="separator"></img>
+                    </div>
+                    <br></br>
                 </div>
             </div>
         );

@@ -17,6 +17,11 @@
     background: inherit;
 
 }
+@media screen and (max-width: 576px) {
+    .card-text-container {
+        margin-top: 1em;
+    }
+}
 .project-text {
     font-size: .64em;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -56,4 +61,11 @@
     .proj-svg-cont-2 {
         display: none;
     }
+}
+.proj-svg-cont-2 img {
+    width: 10%;
+}
+.proj-svg-cont-2 > * {
+    background: url('./../images/mobile-separator.svg');
+    background-size: contain;
 }
