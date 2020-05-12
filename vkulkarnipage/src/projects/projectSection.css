@@ -1,3 +1,16 @@
 #proj-section-cont {
     padding: 5rem 0;
 }
+@media screen and (min-width: 576px) {
+    .timelinebg  * {
+        background: rgba(255, 255, 255, 0);
+    }
+    .timelinebg {
+        background: url('./images/dots.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        /* background: red; */
+    
+    }
+}

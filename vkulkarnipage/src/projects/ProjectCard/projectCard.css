@@ -1,17 +1,27 @@
 .card-container {
-    height: 50vh;
+    min-height: 50vh;
+    /* background: rgba(255, 255, 255, 0); */
+    background: inherit;
 }
-@media screen and (max-width: 576px) {
-    .card-image-container {
-        padding: 1rem;   
+.card-container > * {
+    background: inherit;
+}
+@media screen and (min-width: 1200px) {
+    .card-container {
+        margin: 1rem 0;
     }
 }
+
 .card-text-container {
     font-size: 1rem;
+    background: inherit;
+
 }
 .project-text {
     font-size: .64em;
     font-family: 'IBM Plex Sans', sans-serif;
+    background: inherit;
+
 }
 
 .project-stack img {
@@ -41,6 +51,7 @@
         text-align: center;
         font-size: .5em;
         display: block;
+        background: #282c34;
     }
     .proj-svg-cont-2 {
         display: none;

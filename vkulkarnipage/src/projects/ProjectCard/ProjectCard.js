@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './projectCard.css';
 import SingleImageLayout from './imageLayouts/singleLayout';
+import DoubleImageLayout from './imageLayouts/doubleLayout';
 import CircleSvg from './circleSvg';
 
 // const aLogo = process.env.PUBLIC_URL + '/img/xcodelogo.svg';
@@ -8,28 +9,40 @@ import CircleSvg from './circleSvg';
 // const aThirdLogo = process.env.PUBLIC_URL + '/img/gitlogo.svg';
 class ProjectCard extends Component {
     render () {
+        var imageLayout = <SingleImageLayout />;
+        if (this.props.imgSrc1) {
+            if (this.props.imgSrc1.length === 1) {
+                imageLayout = <SingleImageLayout imgSrc1={this.props.imgSrc1} alt1={this.props.alt1} />
+            } else {
+                let URL1 = this.props.imgSrc1[0];
+                let URL2 = this.props.imgSrc1[1];
+                imageLayout = <DoubleImageLayout imgSrc1={URL1} imgSrc2={URL2} />
+            }
+        }
         return (
             <div className="card-container row align-items-center">
                 {/* contains the image, 1 image */}
                 <div className="col-sm-5 card-image-container">
-                    <SingleImageLayout imgSrc1={this.props.imgSrc1} alt1={this.props.alt1} />
+                    {imageLayout}
+                    {/* <SingleImageLayout imgSrc1={this.props.imgSrc1} alt1={this.props.alt1} /> */}
                 </div>
-                <div className="col-sm-1 proj-svg-cont-1">
+                <div className="col-sm-2 proj-svg-cont-1">
                     <CircleSvg color={this.props.circleColor}/>
-                    {this.props.year}
+                    <div>{this.props.year}</div>
                 </div>
                 {/* contains the text */}
-                <div className="col-sm-6 card-text-container">
+                <div className="col-sm-5 card-text-container">
                     <div className="project-title-bar">
-                        <div className="project-title">{this.props.title}</div>
+                        <div>{this.props.title}</div>
                         <div className="spacer"></div>
                         <div className="project-stack skill-icon-cont">
                             {this.props.imageSet}
                         </div>
                     </div>
                     <div className="project-text">
-                        <p>{this.props.firstText}</p>
-                        <p>{this.props.secondText}</p>
+                        <div>{this.props.firstText}</div>
+                        <br></br>
+                        <div>{this.props.secondText}</div>
                         <ul>{this.props.listHTML}</ul>
                     </div>
                 </div>

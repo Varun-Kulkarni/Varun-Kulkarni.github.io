@@ -14,7 +14,7 @@ class AboutSection extends Component {
                 </div>
                 <div className="col-sm-6">
                     <div className="general-header">About Me</div>
-                    <div className="text">I'm a lot of things :)  I'm a student at Georgia Institute of Technology pursuing a Bachelor's degree in Computer Science.  I'm a full-stack web developer looking constantly for that next new technology or tool that will help me make appealing, informative projects.  But I'm also a budding cloud developer learning the ins and outs of software infrastructure, cloud services, and deployment. And I occasionally dip my feet into the graphic design space too.</div>
+                    <div className="text">I'm a lot of things :)  I'm a student at Georgia Institute of Technology (Go Jackets!) pursuing a Bachelor's degree in Computer Science.  I'm a full-stack web developer looking constantly for that next new technology or tool that will help me make appealing, informative projects.  But I'm also a budding cloud developer learning the ins and outs of software infrastructure, cloud services, and deployment. And I occasionally dip my feet into the graphic design space too.</div>
                     <br></br>
                     <div className="text"><b>But</b> if I'm not doing any of those, it's not unheard of that I'll be at the dance studio, singing in my bedroom (various degrees of success there), or biking and exploring.</div>
                     <br></br>

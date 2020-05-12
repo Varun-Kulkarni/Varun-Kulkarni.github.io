@@ -1,0 +1,241 @@
+"utf-8"
+#cont {
+  margin: 0 auto;
+  width: 100%; }
+
+#nav {
+  margin: 0;
+  padding: 0; }
+
+#nav ul {
+  margin: 0;
+  padding: 0;
+  line-height: 30px; }
+
+#nav li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: left;
+  position: relative; }
+
+#nav ul li a {
+  text-align: left;
+  text-indent: 20px;
+  font-family: "Arial", Serif;
+  text-decoration: none;
+  height: 30px;
+  width: 240px;
+  display: block;
+  color: Black;
+  background-color: #96CCA2;
+  font-size: 13px; }
+
+#nav ul li a:hover {
+  color: #ff0000;
+  background-color: #A5D7D7; }
+
+#nav ul ul {
+  position: absolute;
+  visibility: hidden;
+  top: 30px; }
+
+#nav ul li:hover ul {
+  visibility: visible; }
+
+#side {
+  float: left;
+  width: 160px;
+  margin: 0 2% 0 0;
+  background-color: #74A7A7; }
+
+#body-chunk {
+  margin-right: 14%;
+  margin-left: 14%; }
+
+#mainContent {
+  margin-right: 2%; }
+
+#nav2 {
+  margin: 0;
+  padding: 0; }
+
+#nav 2 ul li {
+  color: #000000;
+  list-style-type: none; }
+
+.area {
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif; }
+
+h1 {
+  text-align: center;
+  color: #6A0000;
+  font-family: Verdana, Serif;
+  font-size: 30px; }
+
+.sub {
+  color: #6A0000;
+  font-size: 24px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-indent: 13px; }
+
+hr {
+  height: 2px;
+  background-color: #660000;
+  border: 0; }
+
+.intro {
+  color: #770000;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif; }
+
+.textc {
+  color: #000000;
+  font-size: 11px;
+  font-family: "Arial", Serif;
+  text-indent: 20px; }
+
+.minorText {
+  color: #005B41;
+  font-size: 11px;
+  font-family: "Arial", Serif;
+  text-decoration: italic; }
+
+.bio {
+  color: #171722;
+  font-family: "Arial", Serif;
+  font-size: 11px; }
+
+#main {
+  float: left;
+  width: 40%;
+  margin: 0 5%; }
+
+/**********EWASTE*************/
+#side {
+  float: left;
+  width: 220px;
+  margin: 0 3% 0 0;
+  background-color: #96CCA2;
+  border-radius: 10px; }
+
+.sidehead {
+  font-family: "Century Gothic", Helvetica, sans-serif;
+  color: Black;
+  font-weight: bold; }
+
+.sidebulet {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #820000; }
+
+#miniWasteNav {
+  margin: 0 10% 0 12%;
+  /*tlur*/
+  display: block; }
+
+.megana-red {
+  color: #BF1600;
+  font-size: 9px;
+  background-color: none;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Helvetica, sans-serif; }
+
+.megana-blue {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  color: #254E24;
+  font-weight: bold; }
+
+.interviewLink {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  color: #002339;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-decoration: none;
+  font-size: 13px; }
+
+#intNav {
+  background-color: #D7F5F9; }
+
+.inthead {
+  color: #770000;
+  font-weight: bold;
+  font-size: 19px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif; }
+
+.during {
+  color: #000000;
+  font-size: 16px;
+  font-family: "Arial", Serif;
+  text-indent: 20px; }
+
+.wwl {
+  color: #770000;
+  font-size: 14px;
+  text-align: none;
+  font-family: "Arial", Serif;
+  font-weight: bolder; }
+
+.caption {
+  color: #4D0000;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 9px; }
+
+#imageHead {
+  margin-left: 5%;
+  width: 100%; }
+
+#Sailesh {
+  display: none; }
+
+#Scott {
+  display: none; }
+
+#Throy {
+  display: none; }
+
+.mainPageLists {
+  font-family: "Arial", Serif;
+  color: #000B1D;
+  list-style-type: none;
+  font-size: 10px;
+  font-weight: bold; }
+
+.bigImage {
+  margin-right: 0%;
+  margin-left: 0%; }
+
+.bigImage2 {
+  margin-left: 2%;
+  margin-right: 2%; }
+
+.footerClass {
+  color: #394A4A;
+  text-align: center;
+  font-weight: bold; }
+
+.smallImageCentered {
+  margin-left: 16%; }
+
+.imageDyn {
+  width: 47%; }
+
+.imageDyn2 {
+  width: 32%; }
+
+#hideMobile {
+  display: none; }
+
+.eWasteHomeLink {
+  font-size: 10px; }
+
+.interviewDescr {
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 13px; }
