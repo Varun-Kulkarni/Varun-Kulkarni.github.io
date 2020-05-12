@@ -6,6 +6,7 @@ import AboutSection from '../about/AboutSection';
 import StacksSection from '../stacks/StacksSection';
 import ProjectSection from '../projects/ProjectSection';
 import OrganizationsSection from '../orgs/Organizations';
+import Footer from '../footer/Footer'
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
           <StacksSection />
           <ProjectSection />
           <OrganizationsSection />
+          <Footer />
         </div>
       </header>
     </div>

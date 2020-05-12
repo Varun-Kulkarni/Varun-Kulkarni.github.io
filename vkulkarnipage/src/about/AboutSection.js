@@ -21,7 +21,7 @@ class AboutSection extends Component {
                     <div className="text">I love building with a focus on implementation, solving problems, and I know that a good product not only gets the job done, but also appeals visually while doing the job.  If I sound like someone who could lend a hand, or if any of you just wanna chat, reach out!</div>
                 
                     <br></br>
-                    <ContactBar />
+                    <ContactBar showResumeIcon={false}/>
                 </div>
             </div>
         );
