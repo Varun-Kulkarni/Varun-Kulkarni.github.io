@@ -19,3 +19,18 @@ a span {
     overflow: hidden;
     top: -10px;
 }
+
+#lnkd {
+    background-image: url("./icons/linkedin.svg");
+}
+
+#git {
+    background-image: url("./icons/gitLogo.svg");
+}
+#mailto {
+    background-image: url("./icons/mailto.svg");
+}
+
+#resume-link {
+    background-image: url("./icons/resume-icon.svg");
+}
