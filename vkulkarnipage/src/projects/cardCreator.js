@@ -57,9 +57,9 @@ const projectStack = {
     "Photon"    : [swift, xcode, c, inkscape, gitbash]
 }
 const repo = {
-    "Photon"    : "https://github.com/Varun-Kulkarni/Photon",
-    "SeeCodeRun": "https://github.com/Varun-Kulkarni/SeeCodeRun/tree/issue224",
-    "Web Design": ["https://rockridgeigem.github.io", "https://varun-kulkarni.github.io/pages/tsa/index.html"]
+    "Photon"    : <a className='btn btn-primary' href="https://github.com/Varun-Kulkarni/Photon">Repo Link</a>,
+    "SeeCodeRun": <a className='btn btn-primary' href="https://github.com/Varun-Kulkarni/SeeCodeRun/tree/issue224">My Branch on the Repo</a>,
+    "Web Design": <div><a className='btn btn-primary' href="https://rockridgeigem.github.io">Rock Ridge iGEM Site</a> <a className='btn btn-primary' href="https://varun-kulkarni.github.io/pages/tsa/index.html">TSA Website</a></div>
     
 }
 const firstParagraphs = {

@@ -47,6 +47,9 @@ class ProjectCard extends Component {
                         <div>{this.props.secondText}</div>
                         <ul>{this.props.listHTML}</ul>
                     </div>
+                    <div className="buttons-cont">
+                        {this.props.repo}
+                    </div>
                 </div>
                 <div className="proj-svg-cont-2">
                     <div className="d-flex justify-content-center">
