@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #282c34;
+}
+html {
+    font-size: calc(0.5vw + 1rem);
+}
+@media screen and (min-width: 120rem) {
+    html {
+        font-size: 2vw;
+    }
+}
+@media screen and (min-width: 90rem) {
+    html {
+      font-size: 2rem;
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.20f3fbd1.chunk.css",
+    "main.js": "/static/js/main.8c69d1f4.chunk.js",
+    "main.js.map": "/static/js/main.8c69d1f4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.276f54b8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.276f54b8.js.map",
+    "static/js/2.2bdbd9b5.chunk.js": "/static/js/2.2bdbd9b5.chunk.js",
+    "static/js/2.2bdbd9b5.chunk.js.map": "/static/js/2.2bdbd9b5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e4603f1212dc592ec765f0fb47a1b3ab.js": "/precache-manifest.e4603f1212dc592ec765f0fb47a1b3ab.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.20f3fbd1.chunk.css.map": "/static/css/main.20f3fbd1.chunk.css.map",
+    "static/js/2.2bdbd9b5.chunk.js.LICENSE.txt": "/static/js/2.2bdbd9b5.chunk.js.LICENSE.txt",
+    "static/media/DivHoverFeat.png": "/static/media/DivHoverFeat.46d5998f.png",
+    "static/media/EcoCarLogo.jpg": "/static/media/EcoCarLogo.6c90aa13.jpg",
+    "static/media/GrafanaFwStats.png": "/static/media/GrafanaFwStats.6c536839.png",
+    "static/media/KibanaRatingGroups.png": "/static/media/KibanaRatingGroups.fa6d2ffb.png",
+    "static/media/LineHoverFeat.png": "/static/media/LineHoverFeat.8641763b.png",
+    "static/media/Varun_Kulkarni_Resume.pdf": "/static/media/Varun_Kulkarni_Resume.6f165b7a.pdf",
+    "static/media/projectSection.css": "/static/media/dots.f228394f.svg",
+    "static/media/eWasteSite.png": "/static/media/eWasteSite.9863fcb1.png",
+    "static/media/contactBar.css": "/static/media/resume-icon.0cb71fae.svg",
+    "static/media/gmu.png": "/static/media/gmu.a4a350a7.png",
+    "static/media/heroSection.css": "/static/media/hero.9afc20b3.jpg",
+    "static/media/igemSite.png": "/static/media/igemSite.86c25aa3.png",
+    "static/media/projectCard.css": "/static/media/mobile-separator.60f52c62.svg",
+    "static/media/openet.jpg": "/static/media/openet.832b939f.jpg",
+    "static/media/photon.svg": "/static/media/photon.81dd1efa.svg",
+    "static/media/portrait-square-full.jpg": "/static/media/portrait-square-full.ca0c7686.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.276f54b8.js",
+    "static/js/2.2bdbd9b5.chunk.js",
+    "static/css/main.20f3fbd1.chunk.css",
+    "static/js/main.8c69d1f4.chunk.js"
+  ]
+}

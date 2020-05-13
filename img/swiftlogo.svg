@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="39.619999"
+   viewBox="0 0 39.619999 39.619816"
+   version="1.1"
+   height="39.619816"
+   id="svg11"
+   sodipodi:docname="swiftlogo.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1424"
+     id="namedview13"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="18.541911"
+     inkscape:cx="17.085403"
+     inkscape:cy="13.944366"
+     inkscape:window-x="0"
+     inkscape:window-y="50"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11" />
+  <defs
+     id="defs7">
+    <linearGradient
+       id="a"
+       x2="18.752619"
+       x1="18.752619"
+       y2="37.505344"
+       gradientTransform="matrix(1.0563876,0,0,0.94662223,-3.4437744e-5,2.0581623)"
+       y1="0.00010563876"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#F88A36"
+         offset="0"
+         id="stop2" />
+      <stop
+         stop-color="#FD2020"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+  </defs>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:none;stroke-width:8.6408987;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect825"
+     width="39.619999"
+     height="39.619816"
+     x="0"
+     y="0" />
+  <path
+     d="m 29.884966,35.105162 c -4.667,2.696 -11.084,2.973 -17.54,0.206 -5.2273004,-2.224 -9.5646004,-6.117 -12.345000437744,-10.565 1.334600037744,1.112 2.891600037744,2.002 4.559800037744,2.78 6.6672004,3.125 13.3330004,2.911 18.0240004,0.008 -0.003,-0.003 -0.005,-0.005 -0.007,-0.008 -6.673,-5.116 -12.345,-11.789 -16.5710004,-17.238 -0.8901,-0.8897997 -1.5574,-2.0019997 -2.2247,-3.0028997 C 8.8969656,11.956262 17.016066,17.850262 19.907066,19.519262 13.791066,13.068262 8.3410656,5.0612623 8.5630656,5.2832623 18.239066,15.070262 27.248066,20.631262 27.248066,20.631262 c 0.298,0.168 0.528,0.308 0.713,0.433 0.195,-0.496 0.366,-1.011 0.51,-1.545 1.557,-5.672 -0.222,-12.1229997 -4.115,-17.4609997 9.008,5.4495 14.347,15.6809997 12.122,24.2449997 -0.058,0.231 -0.121,0.459 -0.189,0.683 0.026,0.031 0.052,0.063 0.078,0.096 4.448,5.561 3.225,11.455 2.669,10.343 -2.413,-4.722 -6.88,-3.278 -9.151,-2.32 z"
+     id="path9"
+     style="fill:url(#a)"
+     inkscape:connector-curvature="0" />
+</svg>
