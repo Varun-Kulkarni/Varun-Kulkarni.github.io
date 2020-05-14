@@ -16,7 +16,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="Newlogo.svg">
+   sodipodi:docname="VKLogo.svg">
   <defs
      id="defs2">
     <linearGradient
@@ -87,9 +87,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="408.62923"
-     inkscape:cy="944.81352"
+     inkscape:zoom="0.1767767"
+     inkscape:cx="-247.06174"
+     inkscape:cy="1084.1687"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -124,7 +124,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -137,9 +137,9 @@
        inkscape:connector-curvature="0"
        id="path836"
        d="M -256.57874,-188.14764 452.87612,-378.24549 V 342.11509 L -256.57874,532.21294 Z"
-       style="fill:#282c34;fill-opacity:0.99082571;stroke:none;stroke-width:1.32291663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:#282c34;fill-opacity:0;stroke:none;stroke-width:1.32291663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       style="fill:#282c34;fill-opacity:0.98039216;stroke:none;stroke-width:1.32291663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#282c34;fill-opacity:0;stroke:none;stroke-width:1.32291663;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M -256.57874,-259.98969 452.87612,-450.08754 V 270.27304 L -256.57874,460.37089 Z"
        id="path819"
        inkscape:connector-curvature="0" />
