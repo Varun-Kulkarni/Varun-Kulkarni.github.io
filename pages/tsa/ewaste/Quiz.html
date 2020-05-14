@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<style>
+.answers li { 
+ list-style: upper-alpha; 
+
+ } 
+.questionResult{
+color: #6A2A00;
+font-family: Verdana;
+}
+ label { 
+ margin-left: 0.5em; 
+ cursor: pointer; 
+font-family: Verdana;
+ } 
+
+ #results { 
+ background: #FF0000; 
+ color: 000000; 
+ padding: 3px; 
+ text-align: center; 
+ width: 200px; 
+ cursor: pointer; 
+ border: 1px solid gray; 
+ }
+
+ #results:hover { 
+ background: #3d91b8; 
+ color: #ffffff; 
+ padding: 3px; 
+ text-align: center; 
+ width: 200px; 
+ cursor: pointer; 
+ border: 1px solid gray; 
+ } 
+
+ #categorylist { 
+ margin-top: 6px; 
+ 
+ } 
+
+ #category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10,#category11{ 
+ display: none; 
+ }
+
+ #closing {
+ display: none;
+ font-style: italic;
+ } 
+.question{
+color: #008870;
+font-family: "Century Gothic";
+font-weight: bolder;
+#Top1{}
+}
+</style>
+<script type="text/javascript" src="/ewaste/js/jquery.js"></script>
+ <script type="text/javascript" src="/ewaste/js/quiz-1.js"></script> 
+<meta charset="utf-8">
+
+	<link href = "..\css\file.css" rel = "stylesheet" type = "text/css" media = "all">
+        <link href = "..\css\mobile.css" rel = "stylesheet" type = "text/css" media = "only screen and (max-device-width: 768px)">
+
+
+              <![if !IE]>
+                    <link rel="icon" href="../IMG/favicon.png" type="image/x-icon" />
+              <![endif]>
+        <!-- IE -->
+                     <link rel="shortcut icon" href="../IMG/favicon.ico" type="image/ico" />
+    <title>How Much Do You Know About E-Waste?</title>
+  </head>
+  <body>
+
+ <div id = "cont"><!--Begin Navigation Bar-->
+  <div id = "nav">
+	
+       <ul>	
+         <li><a href="../TechEd.html">Career and Tech Ed</a> 
+      	<ul>
+		<li><a href = "../TechEd.html">Tech Ed</a>
+		</li>
+		<li><a href = "../cte/Marketing.html">Marketing</a>
+		</li>
+		<li><a href = "../cte/BIT.html">Business & IT</a>
+		</li>
+		<li><a href = "../cte/FACS.html">Family & Consumer Sciences</a>
+		</li>
+      	</ul>
+          </li>
+      <li><a href="../tsa/tsaCh.html">Our School's TSA</a></li> 
+      <li><a href="Ewaste1.html">Design Brief Pages</a>
+        <ul>
+		  <li><a href = "batteries.html">Battery Pollution</a>
+		  </li>
+		  <li><a href = "computers.html">Computer Pollution</a>
+		  </li>
+		  <li><a href = "televisions.html">Television Pollution</a>
+		  </li>
+		  <li><a href = "cellphones.html">Cell Phone Pollution</a>
+		  </li>
+		  <li><a href = "Solutions.html">Solutions to E-Waste</a>
+		  </li>
+		  <li><a href = "Interviews.html">Our Interviews</a>
+		  </li>
+		</ul>
+	  </li> 
+         <li><a href="../contact/contact.html">Contact Us</a></li> 
+      </ul>
+  </div>
+    <aside>
+     <br>
+    </aside>
+  </div><!--End Navigation Bar-->
+
+<a name = "Top1"></a>
+
+<h1>HOW MUCH DO YOU KNOW ABOUT E-WASTE?</h1>
+<div id = "body-chunk">
+<div id="questions" float=auto>
+<p class="question">1. What percentage of toxic waste does e-waste make up?</p>        
+
+<ul class="answers">            
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">30-35%</label><br/>          
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">15-20%</label><br/>            
+<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">40-50%</label><br/>            
+<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">70-75%</label><br/>       
+</ul>        
+
+
+<p class="question">2. What percent of e-waste is recycled each year?</p>        
+
+<ul class="answers">            
+<input type="radio" name="q2" value="a" id="q2a"><label for="q2a">Less than 50%</label><br/>           
+<input type="radio" name="q2" value="b" id="q2b"><label for="q2b">Greater than 35%</label><br/>            
+<input type="radio" name="q2" value="c" id="q2c"><label for="q2c">Less than 15%</label><br/>           
+<input type="radio" name="q2" value="d" id="q2d"><label for="q2d">Greater than 20%</label><br/>       
+</ul>        
+
+<p class="question">3. How many tons of e-waste is generated each year?</p>        
+
+<ul class="answers">            
+<input type="radio" name="q3" value="a" id="q3a"><label for="q3a">20 million tons</label><br/>            
+<input type="radio" name="q3" value="b" id="q3b"><label for="q3b">10 million tons</label><br/>            
+<input type="radio" name="q3" value="c" id="q3c"><label for="q3c">40 million tons</label><br/>           
+<input type="radio" name="q3" value="d" id="q3d"><label for="q3d">50 millions tons</label><br/>       
+</ul>        
+
+<p class="question">4. E-waste is expected to________________.</p>        
+
+<ul class="answers">           
+<input type="radio" name="q4" value="a" id="q4a"><label for="q4a">Increase</label><br/>            
+<input type="radio" name="q4" value="b" id="q4b"><label for="q4b">Decrease</label><br/>                   
+</ul>        
+
+<p class="question">5. Electronic products in landfills release toxins into the air.</p>        
+
+<ul class="answers">           
+<input type="radio" name="q5" value="a" id="q5a"><label for="q5a">True</label><br/>            
+<input type="radio" name="q5" value="b" id="q5b"><label for="q5b">False</label><br/>                   
+</ul>    
+
+<p class="question">6. What can be recycled?</p>        
+
+<ul class="answers">            
+<input type="radio" name="q6" value="a" id="q6a"><label for="q6a">Batteries</label><br/>          
+<input type="radio" name="q6" value="b" id="q6b"><label for="q6b">Televisions</label><br/>            
+<input type="radio" name="q6" value="c" id="q6c"><label for="q6c">Phones</label><br/>            
+<input type="radio" name="q6" value="d" id="q6d"><label for="q6d">All of the Above</label><br/>       
+</ul>        
+
+<p class="question">7. How do we reduce e-waste?</p>        
+
+<ul class="answers">            
+<input type="radio" name="q7" value="a" id="q7a"><label for="q7a">Set up e-waste recycling areas, and recycle electronics instead of throwing them away</label><br/>          
+<input type="radio" name="q7" value="b" id="q7b"><label for="q7b">Tell our friends and family to recycle e-waste</label><br/>            
+<input type="radio" name="q7" value="c" id="q7c"><label for="q7c">Use environmentally friendly e-waste items such as lithium batteries</label><br/>            
+<input type="radio" name="q7" value="d" id="q7d"><label for="q7d">All of the Above</label><br/>       
+</ul>        
+
+<p class="question">8. Who is the largest generator of e-waste worldwide?</p>        
+
+<ul class="answers">            
+<input type="radio" name="q8" value="a" id="q8a"><label for="q8a">Germany</label><br/>          
+<input type="radio" name="q8" value="b" id="q8b"><label for="q8b">France</label><br/>            
+<input type="radio" name="q8" value="c" id="q8c"><label for="q8c">United States</label><br/>            
+<input type="radio" name="q8" value="d" id="q8d"><label for="q8d">Britain</label><br/>       
+</ul>        
+
+<p class="question">9. What percentage of E-Waste is exported to Asia?<ul class="answers">            
+<input type="radio" name="q9" value="a" id="q9a"><label for="q9a">10%</label><br/>          
+<input type="radio" name="q9" value="b" id="q9b"><label for="q9b">80%</label><br/>            
+<input type="radio" name="q9" value="c" id="q9c"><label for="q9c">55%</label><br/>            
+<input type="radio" name="q9" value="d" id="q9d"><label for="q9d">30%</label><br/>       
+</ul>        
+
+<p class="question">10. E-Waste is ___% of America's overall trash, and ___% of overall toxic waste.<ul class="answers">            
+<input type="radio" name="q10" value="a" id="q10a"><label for="q10a">2%...70%</label><br/>          
+<input type="radio" name="q10" value="b" id="q10b"><label for="q10b">10%...50%</label><br/>            
+<input type="radio" name="q10" value="c" id="q10c"><label for="q10c">50%...50%</label><br/>            
+<input type="radio" name="q10" value="d" id="q10d"><label for="q10d">10%...10%</label><br/>       
+</ul>        
+
+<br/>
+<div id="results">            
+Show me the answers!       
+</div> 
+<div id="categorylist ">            
+     
+</div> 
+
+<div id="category1">            
+<p class = "questionResult">              
+<strong>Question 1:</strong> The correct answer is the 70-75%<strong></strong>.</p>        
+</div>        
+
+<div id="category2">            
+<p class = "questionResult">              
+<strong>Question 2:</strong> The correct answer is less than 15%<strong></strong>.</p>        
+</div>        
+
+<div id="category3">            
+<p class = "questionResult">                
+<strong>Question 3:</strong> The correct answer is 40 million tons<strong></strong>.</p>        
+</div>        
+
+<div id="category4">            
+<p class = "questionResult">               
+<strong>Question 4:</strong> The correct answer is Increase<strong></strong>.</p>        
+</div>        
+      
+<div id="category5">            
+<p class = "questionResult">               
+<strong>Question 5:</strong> The correct answer is True<strong></strong>.</p>        
+</div> 
+
+<div id="category6">            
+<p class = "questionResult">               
+<strong>Question 6:</strong> The correct answer is All of the Above<strong></strong>.</p>        
+</div> 
+
+<div id="category7">            
+<p class = "questionResult">               
+<strong>Question 7:</strong> The correct answer is All of the Above<strong></strong>.</p>        
+</div> 
+
+
+<div id="category8">            
+<p class = "questionResult">               
+<strong>Question 8:</strong> The correct answer is United States<strong></strong>.</p>        
+</div> 
+
+<div id="category9">            
+<p class = "questionResult">               
+<strong>Question 9:</strong> The correct answer is 80% <strong></strong>.</p>        
+</div> 
+
+<div id="category10">            
+<p class = "questionResult">               
+<strong>Question 10:</strong> The correct answer is 2%...70%<strong></strong>.</p>        
+</div> 
+<div id="category11">            
+<p>                
+You answered them all right!</p>        
+</div>
+</div>       
+
+<br>
+
+  </body>
+</html>
