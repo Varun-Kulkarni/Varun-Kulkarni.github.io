@@ -2,14 +2,16 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image'
 import styles from './About.module.css'
 import { StyledH2, MainText } from "../styled/comps";
+import Portrait from '../../assets/portrait-square.jpg';
 const About = () => {
     return (
         <Container fluid id={styles.mainContainer}>
             <Row>
                 <Col sm>
-                    
+                    <Image src={Portrait} fluid />
                 </Col>
                 <Col>
                     <StyledH2>About</StyledH2>
