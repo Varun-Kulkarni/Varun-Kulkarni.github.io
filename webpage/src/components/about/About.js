@@ -7,7 +7,7 @@ import { StyledH2, MainText, ClipImageCentered } from "../styled/comps";
 import Portrait from '../../assets/portrait-square.jpg';
 const About = () => {
     return (
-        <Container fluid id={styles.mainContainer}>
+        <Container id={styles.mainContainer}>
             <Row style={{alignItems: 'center'}}>
                 <Col md className={styles.pictureContainer}>
                     <ClipImageCentered src={Portrait}  />

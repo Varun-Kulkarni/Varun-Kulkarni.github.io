@@ -3,12 +3,14 @@ import './App.css';
 import Footer from './components/footer/Footer';
 import Hero from './components/hero/Hero';
 import About from './components/about/About';
+import Experience from './components/experience/Experience'
 
 function App() {
   return (
     <div className="App">
       <Hero />
       <About />
+      <Experience />
       <Footer />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

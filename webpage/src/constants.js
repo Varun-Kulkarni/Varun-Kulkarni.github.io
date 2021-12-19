@@ -13,5 +13,6 @@ export const device = {
     xl: `screen and (min-width: ${size.xl})`
 }
 export const colors = {
-    darkgrey: '#282c34'
+    darkgrey: '#282c34',
+    white: '#fdfffc'
 }

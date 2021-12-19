@@ -1,13 +1,9 @@
 #mainContainer {
-    background-color: #282c34;
     min-height: 70vh;
     width: 100%;
 }
 .pictureContainer {
     padding: 5%;
-}
-#textContainer {
-    padding-right: 5%;
 }
 @media screen and (max-width: 576px) {
     #textContainer {
