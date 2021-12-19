@@ -2,7 +2,7 @@ import React from "react";
 import styled from 'styled-components';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import { MainText, StyledH2, StyledH4 } from "./comps";
+import { MainText, StyledH2, StyledH3, StyledH4 } from "./comps";
 import { device, colors } from "../../constants";
 import Row from "react-bootstrap/esm/Row";
 
@@ -25,11 +25,15 @@ const CardTitle = styled.div`
 const CardRowStyle = styled(Row)`
     display: flex;
     align-items: center;
-    border: 1px dashed red;
 `
 const FillImage = styled(Image)`
     display: block;
-    width: 100%;
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    @media screen and (max-width: 992px) {
+        width: 75%;
+    }
 `
 
 export const CardRow = ({children}) => {
@@ -37,13 +41,15 @@ export const CardRow = ({children}) => {
 }
 
 export const WorkplaceCard = ({title, time, children, image}) => {
+    console.log(children)
     return (
         <>
-            <HorizWrapperStyle md="4">
+            <HorizWrapperStyle lg="4">
                 <FillImage src={image} />
             </HorizWrapperStyle>
             <HorizWrapperStyle>
-                <StyledH4>{title}</StyledH4>
+                <StyledH3>{title}</StyledH3>
+                <MainText><i>{time}</i></MainText>
                 <br></br>
                 {children}
             </HorizWrapperStyle>
