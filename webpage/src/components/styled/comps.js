@@ -49,8 +49,8 @@ export const StyledH2 = ({children}) => {
 export const StyledH3 = ({children}) => {
     return <H3Styled>{children}</H3Styled>
 }
-export const StyledH4 = ({children}) => {
-    return <H4Styled>{children}</H4Styled>
+export const StyledH4 = ({dark, children}) => {
+    return <H4Styled dark={dark}>{children}</H4Styled>
 }
 export const MainText = ({dark, children}) => {
     return <MainTextStyle dark={dark}>{children}</MainTextStyle>

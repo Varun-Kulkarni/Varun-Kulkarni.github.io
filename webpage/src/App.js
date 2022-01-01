@@ -4,6 +4,7 @@ import Footer from './components/footer/Footer';
 import Hero from './components/hero/Hero';
 import About from './components/about/About';
 import Experience from './components/experience/Experience'
+import Projects  from './components/projects/Projects';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <About />
       <Experience />
+      <Projects />
       <Footer />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

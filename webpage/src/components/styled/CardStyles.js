@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import { MainText, StyledH2, StyledH3, StyledH4 } from "./comps";
 import { device, colors } from "../../constants";
-import Row from "react-bootstrap/esm/Row";
+import Row from "react-bootstrap/Row";
 
 // const WrapperStyle = styled(Col)`
 //     background: white;
@@ -41,7 +41,6 @@ export const CardRow = ({children}) => {
 }
 
 export const WorkplaceCard = ({title, time, children, image}) => {
-    console.log(children)
     return (
         <>
             <HorizWrapperStyle lg="4">
@@ -55,4 +54,26 @@ export const WorkplaceCard = ({title, time, children, image}) => {
             </HorizWrapperStyle>
         </>
     )
+}
+
+const ProjectLeftCard = styled(Col)`
+    border: 2px solid white;
+    height: 40vh;
+
+`
+
+export const ProjectBubble = ({direction}) => {
+    if (direction === "left") {
+        return(
+            <Row>
+                <ProjectLeftCard lg="5"></ProjectLeftCard>
+                <Col style={{border: "1px solid red "}}></Col>
+                <ProjectLeftCard lg="5"></ProjectLeftCard>
+            </Row>
+        )
+    } else {
+        return (
+            <Row></Row>
+        )
+    }
 }
