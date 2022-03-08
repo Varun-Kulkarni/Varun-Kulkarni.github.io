@@ -1,4 +1,7 @@
 import OpenetLogo from '../../assets/Openet-Amdocs-2.png'
+
+
+
 export const content = [
     {
         title: "ODF",
@@ -8,6 +11,12 @@ export const content = [
             "Used Kafka to implement an end-to-end ingestion, aggregation, and distribution pipeline for 3G and 4G cellular network data",
             "Enriched data streams with per-customer data and provided customized output to billing systems and CRM",
             "Demonstrated data stream aggregation using visualizations in Grafana and deployed in an Openshift Kubernetes environment using Jenkins CI/CD for testing"
+        ],
+        // technology: [
+        //     "kafka", "kubernetes", "linux", "elasticsearch", "jenkins", "git","javascript", "grafana" 
+        // ],
+        technology: [
+            "kafka"
         ],
         backgroundImg: OpenetLogo,
         buttons: [
@@ -26,6 +35,7 @@ export const content = [
             "Delivers 40% performance upgrade"
         ],
         backgroundImg: OpenetLogo,
+        technology: [],
         buttons: [
             {
                 "title": "Openet Home",
