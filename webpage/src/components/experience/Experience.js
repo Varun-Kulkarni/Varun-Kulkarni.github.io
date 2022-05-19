@@ -1,16 +1,16 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import { MainText, StyledH2 } from "../styled/comps";
 import { CardRow, WorkplaceCard } from "../styled/CardStyles";
 import styles from './Experience.module.css';
+import NCRLogo from '../../assets/NCR_Brand_Block_Logo_PNG.png'
 const Experience = () => {
     return (
         <Container id={styles.mainContainer}>
             <StyledH2>Work Experience</StyledH2>
             <div style={{height: '5%'}}></div>
             <CardRow>
-                <WorkplaceCard image="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/NCR_Corporation_logo.svg/1200px-NCR_Corporation_logo.svg.png" title="NCR Corporation" time="Summer 2021, returning Full-Time in Summer 2022">
+                <WorkplaceCard image={NCRLogo} title="NCR Corporation" time="Summer 2021">
                     <MainText><span className={styles.emphasis}>About the Company:&nbsp;</span>NCR is a world leader in enterprise technology for restaurants, stores, and banking services across the globe.  Since building one of the first cash registers for grocery stores, the company has been providing hardware and software to run the next generation of businesses and help them thrive.</MainText>
                     <MainText><span className={styles.emphasis}>What I learned:&nbsp;</span>I worked at the Innovation Lab at NCR, which is a subset of the software team that focuses on the next generation of NCR products and ways to reach our customers.  During my summer at the company I learned a little bit about how user/market research is performed, how large companies grow and operate, and was able to contribute to a full-stack application.</MainText>
                 </WorkplaceCard>

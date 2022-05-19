@@ -11,12 +11,18 @@ import Image from 'react-bootstrap/Image'
  - h1/title: 6.854rem or 11.809rem
 
 */
+const s1 = '1.618rem';
+const s2 = '2.618rem';
 const H2Styled = styled.div`
     font-size: 4.236rem;
     color: ${colors.white};
 `
 const H3Styled = styled.div`
     font-size: 2.618rem;
+    color: ${props => props.dark ? colors.darkgrey: colors.white};
+`
+const H3Modified = styled.div`
+    font-size: 1.75rem;
     color: ${props => props.dark ? colors.darkgrey: colors.white};
 `
 
@@ -48,6 +54,9 @@ export const StyledH2 = ({children}) => {
 }
 export const StyledH3 = ({children}) => {
     return <H3Styled>{children}</H3Styled>
+}
+export const StyledH3Mod = ({children}) => {
+    return <H3Modified>{children}</H3Modified>
 }
 export const StyledH4 = ({dark, children}) => {
     return <H4Styled dark={dark}>{children}</H4Styled>

@@ -12,8 +12,6 @@ const Projects = () => {
         <Container id={styles.mainContainer}>
             <StyledH2>Projects</StyledH2>
             <TimelineContainer>
-                <p>Hello</p>
-                <p>Hello again</p>
             </TimelineContainer>
         </Container>
     )

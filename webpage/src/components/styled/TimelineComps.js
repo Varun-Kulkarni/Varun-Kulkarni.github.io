@@ -1,28 +1,28 @@
 import React from "react";
 import styled from 'styled-components';
-import { MainText, StyledH2, StyledH3, StyledH4 } from "./comps";
+import { MainText, StyledH2, StyledH3, StyledH3Mod } from "./comps";
 import { device, colors } from "../../constants";
 import {content} from '../projects/content';
 
 /**Import other icons */
 import KafkaLogo from "../../assets/apache_kafka.svg";
-import {ReactComponent as elasticlogo} from "../../assets/elasticsearch.svg";
-import {ReactComponent as gitlogo} from "../../assets/git_icon.svg";
-import {ReactComponent as grafanalogo} from "../../assets/grafana.svg";
-import {ReactComponent as jslogo} from "../../assets/javascript.svg";
-// import {ReactComponent as jenkinslogo}  from "../../assets/jenkins_logo.svg";
-// import {ReactComponent as kubelogo}  from "../../assets/kubernetes.svg";
-import {ReactComponent as linuxlogo} from "../../assets/linux.svg";
+// import {ReactComponent as elasticlogo} from "../../assets/elasticsearch.svg";
+// import {ReactComponent as gitlogo} from "../../assets/git_icon.svg";
+// import {ReactComponent as grafanalogo} from "../../assets/grafana.svg";
+// import {ReactComponent as jslogo} from "../../assets/javascript.svg";
+// // import {ReactComponent as jenkinslogo}  from "../../assets/jenkins_logo.svg";
+// // import {ReactComponent as kubelogo}  from "../../assets/kubernetes.svg";
+// import {ReactComponent as linuxlogo} from "../../assets/linux.svg";
 
 const LOGOS = {
     "kafka": KafkaLogo,
-    "elastic": elasticlogo,
-    "git": gitlogo,
-    "grafana": grafanalogo,
-    "js": jslogo,
-    "jenkins": jslogo,
-    "kubernetes": jslogo,
-    "linux": linuxlogo
+    // "elastic": elasticlogo,
+    // "git": gitlogo,
+    // "grafana": grafanalogo,
+    // "js": jslogo,
+    // "jenkins": jslogo,
+    // "kubernetes": jslogo,
+    // "linux": linuxlogo
 }
 
 const TL = styled.div`
@@ -47,10 +47,11 @@ const TL = styled.div`
 const TLCard = styled.div`
     border: 1px solid white;
     height: inherit;
+    margin: 1rem 0;
 
     @media ${device.md} {
         position: relative;
-        margin: 0.5rem 0;
+        margin: 1rem 0;
         width: 45%;
         
         &:nth-child(odd) {
@@ -59,9 +60,9 @@ const TLCard = styled.div`
     }
 `
 const TLCardBg = styled.div`
-    min-height: 30vh;
+    height: 40vh;
     background-size: contain;
-    background-color: black;
+    background-color: transparent;
     background-repeat: no-repeat;
     background-position: center;
 `
@@ -71,30 +72,32 @@ const TLCardContent = styled.div`
 const HorizontalSplit = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between
 `
 const TLCardFooter = styled.div``
 
-const TimelineCardFilled = ({imgSrc, bulletPoints, title, timeframe, tech}) => {
+const TimelineCardFilled = ({imgSrc, bulletPoints, title, timeframe, accessoryText, tech}) => {
     return (
-        <TLCard key={title}>
+        <TLCard>
             <TLCardBg style={{backgroundImage: `url(${imgSrc})`}}>
             </TLCardBg>
             <TLCardContent>
-                <HorizontalSplit>
-                    <StyledH3>{title}</StyledH3>
+                <HorizontalSplit>      
+                    {title.length > 30 && <StyledH3Mod>{title}</StyledH3Mod>}
+                    {title.length <= 30 && <StyledH3>{title}</StyledH3>}
                     {
                         tech.forEach(e => {
                             const src = LOGOS[e];
                             // console.log(src);
                             const img =  <img src={imgSrc} />
-                            console.log(img);
+                            // console.log(img);
                             return img;
                         })
                     }
                 </HorizontalSplit>
                 <MainText style={{color: "#028090"}}>{timeframe}</MainText>
+                {accessoryText != undefined && <MainText style={{textDecoration: 'italic'}}>{accessoryText}</MainText>}
+
                 <ul>
                     {bulletPoints.map(point => (<li style={{color: colors.white}}>{point}</li>))}
                 </ul>
@@ -118,7 +121,8 @@ export const TimelineContainer = () => {
                     title={entry.title} 
                     timeframe={entry.timeframe}
                     key={entry.title}
-                    tech={entry.technology} />
+                    tech={entry.technology}
+                    accessoryText={entry.accessoryText}/>
                 ))
             }
         </TL>
