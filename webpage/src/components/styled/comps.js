@@ -15,7 +15,8 @@ const s1 = '1.618rem';
 const s2 = '2.618rem';
 const H2Styled = styled.div`
     font-size: 4.236rem;
-    color: ${colors.white};
+    color: ${props => props.dark ? colors.darkgrey: colors.white};
+
 `
 const H3Styled = styled.div`
     font-size: 2.618rem;
@@ -33,9 +34,11 @@ const H4Styled = styled.div`
     text-decoration-style: double;
 `
 const MainTextStyle = styled.p`
-    font-size: 1rem;
+    font-size: ${props => props.upsize ? '1.3rem': '1rem'};
     color: ${props => props.dark ? colors.darkgrey: colors.white};
+    font-style: ${props => props.italic ? 'italic': 'none'};
     font-family: 'Noto Sans Display', sans-serif;
+    font-weight: ${props => props.bold ? 'bold':'none'}
 `
 const CircleAndTabImage = styled(Image)`
     clip-path: circle(50% at center);
@@ -49,20 +52,20 @@ const CircleAndTabImage = styled(Image)`
     }
 `
 
-export const StyledH2 = ({children}) => {
-    return <H2Styled>{children}</H2Styled>
+export const StyledH2 = ({dark, children}) => {
+    return <H2Styled dark={dark}>{children}</H2Styled>
 }
-export const StyledH3 = ({children}) => {
-    return <H3Styled>{children}</H3Styled>
+export const StyledH3 = ({dark, children}) => {
+    return <H3Styled dark={dark}>{children}</H3Styled>
 }
-export const StyledH3Mod = ({children}) => {
-    return <H3Modified>{children}</H3Modified>
+export const StyledH3Mod = ({dark, children}) => {
+    return <H3Modified dark={dark}>{children}</H3Modified>
 }
 export const StyledH4 = ({dark, children}) => {
     return <H4Styled dark={dark}>{children}</H4Styled>
 }
-export const MainText = ({dark, children}) => {
-    return <MainTextStyle dark={dark}>{children}</MainTextStyle>
+export const MainText = ({italic, dark, bold, children, upsize}) => {
+    return <MainTextStyle bold={bold} italic={italic} dark={dark} upsize={upsize}>{children}</MainTextStyle>
 }
 export const ClipImageCentered = ({src}) => {
     return <CircleAndTabImage src={src} fluid/>

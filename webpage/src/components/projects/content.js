@@ -16,9 +16,14 @@ export const content = [
             "Explored deep learning netwrok architectures and evaluated our model against state-of-the-art image models",
             "Compared image-based lesion classification with classification over other patient attributes using the decision tree model"
         ],
-        technology: ["python3", "tensorflow"],
+        technology: ["python3", "tf"],
         backgroundImg: HAM10000,
-        link: "https://varun-kulkarni.github.io/CS-4641/"
+        links: [
+            {
+                title: "Info",
+                href: "https://varun-kulkarni.github.io/CS-4641/"
+            }
+        ]
     },
     {
         title: "Retail Gamification",
@@ -31,7 +36,13 @@ export const content = [
             "Demoed current features to NCR executives and business leaders and showed a Figma user flow to describe the vision of the whole application"
         ],
         technology: ["react", "nestjs", "js", "gcp", "ios"],
-        backgroundImg: NCRLogo
+        backgroundImg: NCRLogo,
+        links: [
+            {
+                title: "NCR Home",
+                href: "https://www.ncr.com"
+            }
+        ]
     },
     {
         title: "ODF - Openet Data Fabric",
@@ -47,13 +58,13 @@ export const content = [
         //     "kafka", "kubernetes", "linux", "elasticsearch", "jenkins", "git","javascript", "grafana" 
         // ],
         technology: [
-            "kafka"
+            "kafka", "linux", "kubernetes", "js"
         ],
         backgroundImg: OpenetLogo,
-        buttons: [
+        links: [
             {
-                "title": "Openet Home",
-                "href": "https://www.openet.com"
+                title: "Openet Home",
+                href: "https://www.openet.com"
             }
         ],
     },
@@ -66,8 +77,9 @@ export const content = [
             "Applied sensor fusion algorithms in Matlab to aggregate data vehicle internal and external sensors, radars, and cameras and detect cars, objects, and hazards",
             "Specific work done in sensor fusion for blind-spot detection"
         ],
-        technology: [],
-        backgroundImg: EcoCar
+        technology: ["matlab", "python3"],
+        backgroundImg: EcoCar,
+        links:[]
     },
     {
         title: "COMP - Centralized Operations Management Platform",
@@ -80,8 +92,8 @@ export const content = [
             "Elastic-based momitoring solution was eventually accepted by the client as part of a multi-million dollar contract"
         ],
         backgroundImg: OpenetLogo,
-        technology: [],
-        buttons: [
+        technology: ["elastic", "grafana", "linux", "jmeter", "java"],
+        links: [
             {
                 "title": "Openet Home",
                 "href": "https://www.openet.com"
@@ -98,18 +110,30 @@ export const content = [
             "First exposure to advanced frontend techniques, SVG, and animation"
         ],
         backgroundImg: Igem,
-        technology: []
+        technology: ["html", "css", "js", "inkscape", "git"],
+        links: [
+            {
+                "title": "Website Link",
+                "href": "https://rockridgeigem.github.io"
+            }
+        ]
     },
     {
         title: "SeeCodeRun",
         timeframe: "Summer 2017",
         accessoryText: "Summer Internship Project @ GMU CS",
         backgroundImg: SCR, 
-        technology: [],
+        technology: ["html", "css", "js", "git"],
         bullets: [
             "Aided in exploration of features for early iterations an online, live development environment for web, with additional features that address common problems faced by JS developers as revealed by large-scale university study",
             "Editor color codes user's select queries from jQuery and other frameworks to their exact DOM elements to establish a direct relation between code and output, aiding in debugging",
             "Presented at Loudoun Regional Science Fair in 2018 and was recognized by IEEE Northern Virginia"
+        ],
+        links: [
+            {
+                "title": "Archive Repo (specific branch)",
+                "href": "https://github.com/Varun-Kulkarni/SeeCodeRun/tree/issue224"
+            }
         ]
     },
     {
@@ -117,11 +141,17 @@ export const content = [
         timeframe: "Summer 2016",
         accessoryText: "HS Comp Sci + Summer Project",
         backgroundImg: Photon, 
-        technology: [],
+        technology: ["swift", "ios", "c", "inkscape", "git"],
         bullets: [
             "Productivity app interfacing with the iOS Calendar to create tasks in a to-do list, schedule them for specified work hours, and view scheduled tasks for the next 3 hours",
             "Implemented UI inspired by AccuWeather (for a future event view), Todoist, and other known apps to create a clean user interface for scheduling and managing tasks",
             "Released on the app store and accumulated over 1000 downloads"
+        ],
+        links: [
+            {
+                "title": "Repository",
+                "href": "https://github.com/Varun-Kulkarni/Photon"
+            }
         ]
     }
 ]

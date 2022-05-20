@@ -1,9 +1,10 @@
 import React from 'react';
+import { colors } from '../../constants';
 
 const Footer = () => {
     return (
-        <div>
-            <h1>Footer</h1>
+        <div style={{backgroundColor: '#00546f'}}>
+            <h1 style={{color: colors.white}}>Footer</h1>
         </div>
     );
 }

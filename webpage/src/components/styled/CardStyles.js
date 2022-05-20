@@ -55,25 +55,3 @@ export const WorkplaceCard = ({title, time, children, image}) => {
         </>
     )
 }
-
-const ProjectLeftCard = styled(Col)`
-    border: 2px solid white;
-    height: 40vh;
-
-`
-
-export const ProjectBubble = ({direction}) => {
-    if (direction === "left") {
-        return(
-            <Row>
-                <ProjectLeftCard lg="5"></ProjectLeftCard>
-                <Col style={{border: "1px solid red "}}></Col>
-                <ProjectLeftCard lg="5"></ProjectLeftCard>
-            </Row>
-        )
-    } else {
-        return (
-            <Row></Row>
-        )
-    }
-}
