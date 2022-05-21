@@ -11,15 +11,16 @@ import Image from 'react-bootstrap/Image'
  - h1/title: 6.854rem or 11.809rem
 
 */
-const s1 = '1.618rem';
-const s2 = '2.618rem';
 const H2Styled = styled.div`
+    font-family: 'Space Mono', monospace;
     font-size: 4.236rem;
     color: ${props => props.dark ? colors.darkgrey: colors.white};
 
 `
 const H3Styled = styled.div`
     font-size: 2.618rem;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
     color: ${props => props.dark ? colors.darkgrey: colors.white};
 `
 const H3Modified = styled.div`
@@ -28,10 +29,11 @@ const H3Modified = styled.div`
 `
 
 const H4Styled = styled.div`
-    font-size: 1.618rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.3rem;
     color: ${props => props.dark ? colors.darkgrey: colors.white};
-    text-decoration: underline;
-    text-decoration-style: double;
+    font-weight: bold;
+    font-style: italic;
 `
 const MainTextStyle = styled.p`
     font-size: ${props => props.upsize ? '1.3rem': '1rem'};

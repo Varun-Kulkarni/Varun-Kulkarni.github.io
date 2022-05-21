@@ -22,6 +22,10 @@ export const content = [
             {
                 title: "Info",
                 href: "https://varun-kulkarni.github.io/CS-4641/"
+            },
+            {
+                title: "Repo",
+                href: "https://github.com/Varun-Kulkarni/CS-4641"
             }
         ]
     },

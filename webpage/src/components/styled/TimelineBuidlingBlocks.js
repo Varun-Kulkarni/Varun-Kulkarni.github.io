@@ -1,6 +1,4 @@
-import React from "react";
 import styled from 'styled-components';
-import { MainText, StyledH2, StyledH3, StyledH3Mod } from "../styled/comps";
 import { device, colors } from "../../constants";
 import timeline_bg from '../../assets/timeline_bg.svg'
 
@@ -90,5 +88,6 @@ export const TLCardFooter = styled.div`
     background: ${colors.white};
     padding: auto 1rem;
     display: flex;
+    gap: 1rem;
     flex-direction: row;
 `

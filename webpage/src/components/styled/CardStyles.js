@@ -2,7 +2,7 @@ import React from "react";
 import styled from 'styled-components';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import { MainText, StyledH2, StyledH3, StyledH4 } from "./comps";
+import { MainText, StyledH3 } from "./comps";
 import { device, colors } from "../../constants";
 import Row from "react-bootstrap/Row";
 

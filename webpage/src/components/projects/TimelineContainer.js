@@ -1,6 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
-import { MainText, StyledH3, StyledH3Mod } from "../styled/comps";
+import { MainText, StyledH3, StyledH3Mod, StyledH4 } from "../styled/comps";
 import {content} from './content';
 import { Timeline, TimelineCard, TLCardBg, TLCardContent, TLCardFooter, TLCardHeaderCont, IconsContainer} from "../styled/TimelineBuidlingBlocks";
 import {Button} from 'react-bootstrap';
@@ -65,7 +65,8 @@ const NCard = ({title, timeframe, accessory, bullets, technology, links, backgro
             </TLCardBg>
             <TLCardContent>
                 <TLCardHeaderCont> 
-                    <MainText bold dark italic upsize>{timeframe}</MainText>
+                    {/* <MainText bold dark italic upsize>{timeframe}</MainText> */}
+                    <StyledH4 dark>{timeframe}</StyledH4>
                     <IconsContainer>
                         {
                             urls.map((e, i) => (<img src={e} key={i}/>))

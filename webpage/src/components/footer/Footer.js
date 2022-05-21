@@ -42,7 +42,7 @@ const ImgCont = styled.div`
 
 const Footer = () => {
     return (
-        <Container style={{display: 'flex', flexDirection: 'column'}}>
+        <Container style={{display: 'flex', flexDirection: 'column', paddingBottom: '2rem'}}>
             <StyledH2>Contact</StyledH2>
             <ImgCont>
                 {
