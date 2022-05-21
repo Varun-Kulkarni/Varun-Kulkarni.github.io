@@ -49,7 +49,7 @@ export const WorkplaceCard = ({title, time, children, image}) => {
             <HorizWrapperStyle>
                 <StyledH3>{title}</StyledH3>
                 <MainText><i>{time}</i></MainText>
-                <br></br>
+                
                 {children}
             </HorizWrapperStyle>
         </>

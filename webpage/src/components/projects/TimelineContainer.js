@@ -57,7 +57,6 @@ const LOGOS = {
 
 const NCard = ({title, timeframe, accessory, bullets, technology, links, background}) => {
     const urls = technology.map(e => LOGOS[e]);
-    console.log(links);
     return (
         <TimelineCard>
             <TLCardBg background={background}>
