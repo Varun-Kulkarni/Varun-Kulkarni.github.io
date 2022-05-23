@@ -11,9 +11,29 @@ import Image from 'react-bootstrap/Image'
  - h1/title: 6.854rem or 11.809rem
 
 */
+const H1Styled = styled.div`
+    font-family: 'Space Mono', monospace;
+    color: ${props => props.dark ? colors.darkgrey: colors.white};
+    font-size: 3.5rem;
+    font-weight: bold;
+    @media ${device.md} {
+        font-size: 6.854rem;
+    }
+`
+export const Subtitle = styled.div`
+    font-family: 'Noto Sans Display', sans-serif;
+    color: ${props => props.dark ? colors.darkgrey: colors.white};
+    font-size: 2rem;
+    @media ${device.md} {
+        font-size: 2.618rem;
+    }
+`
 const H2Styled = styled.div`
     font-family: 'Space Mono', monospace;
-    font-size: 4.236rem;
+    font-size: 3.25rem;
+    @media ${device.md} {
+        font-size: 4.236rem;
+    }
     color: ${props => props.dark ? colors.darkgrey: colors.white};
 
 `
@@ -53,7 +73,9 @@ const CircleAndTabImage = styled(Image)`
         transform: translateX(-50%)
     }
 `
-
+export const StyledH1 = ({dark, children}) => {
+    return <H1Styled dark={dark}>{children}</H1Styled>
+}
 export const StyledH2 = ({dark, children}) => {
     return <H2Styled dark={dark}>{children}</H2Styled>
 }
@@ -69,6 +91,7 @@ export const StyledH4 = ({dark, children}) => {
 export const MainText = ({italic, dark, bold, children, upsize}) => {
     return <MainTextStyle bold={bold} italic={italic} dark={dark} upsize={upsize}>{children}</MainTextStyle>
 }
+
 export const ClipImageCentered = ({src}) => {
     return <CircleAndTabImage src={src} fluid/>
 }
