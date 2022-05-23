@@ -1,11 +1,7 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col'
 import styles from './Projects.module.css';
 import { StyledH2 } from "../styled/comps";
-import { ProjectBubble } from "../styled/CardStyles";
-// import { TimelineContainer } from "../styled/TimelineComps";
 import { TimelineContainer } from "./TimelineContainer";
 
 const Projects = () => {

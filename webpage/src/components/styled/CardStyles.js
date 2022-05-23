@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import { MainText, StyledH3 } from "./comps";
-import { device, colors } from "../../constants";
+import { colors } from "../../constants";
 import Row from "react-bootstrap/Row";
 
 // const WrapperStyle = styled(Col)`
@@ -18,10 +18,6 @@ const HorizWrapperStyle = styled(Col)`
     padding: 1%;
 `
 
-const CardTitle = styled.div`
-    font-size: 2rem;
-
-`;
 const CardRowStyle = styled(Row)`
     display: flex;
     align-items: center;

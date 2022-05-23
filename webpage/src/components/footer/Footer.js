@@ -1,9 +1,9 @@
 import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
-import Row from 'react-bootstrap/esm/Row';
 import { device } from '../../constants';
 import styled from 'styled-components';
 import { StyledH2 } from '../styled/comps';
+// import { Link } from 'react-router-dom';
 
 //images
 // import {ReactComponent as Resume } from '../../assets/resume-icon.svg';
@@ -19,7 +19,7 @@ const links = [
     {icon: Octocat, href: "https://github.com/Varun-Kulkarni"},
     {icon: MailTo, href: "mailto:kulkarni.varun22@gmail.com"},
     {icon: Lnkd, href: "https://www.linkedin.com/in/varunkulkarni18/"},
-    {icon: Resume, href: "https://varun-kulkarni.github.io/resume/Varun-Kulkarni-Resume.pdf"}
+    {icon: Resume, href: "/resume"}
 ]
 
 const ImgCont = styled.div`
@@ -47,7 +47,7 @@ const Footer = () => {
             <ImgCont>
                 {
                     links.map(e => (<a href={e.href}>
-                        <img src={e.icon}/>
+                        <img alt="" src={e.icon}/>
                     </a>))
                 }
             </ImgCont>
