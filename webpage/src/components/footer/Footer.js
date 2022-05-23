@@ -19,7 +19,7 @@ const links = [
     {icon: Octocat, href: "https://github.com/Varun-Kulkarni"},
     {icon: MailTo, href: "mailto:kulkarni.varun22@gmail.com"},
     {icon: Lnkd, href: "https://www.linkedin.com/in/varunkulkarni18/"},
-    {icon: Resume, href: "#"}
+    {icon: Resume, href: "https://varun-kulkarni.github.io/resume/Varun-Kulkarni-Resume.pdf"}
 ]
 
 const ImgCont = styled.div`
