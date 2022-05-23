@@ -22,7 +22,7 @@ const HeroWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    @media ${device.md} {
+    @media ${device.lg} {
         align-items: center;
     }
 `
