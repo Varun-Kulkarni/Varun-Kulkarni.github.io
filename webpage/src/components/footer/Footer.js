@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/esm/Container';
 import { device } from '../../constants';
 import styled from 'styled-components';
 import { StyledH2 } from '../styled/comps';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 //images
 // import {ReactComponent as Resume } from '../../assets/resume-icon.svg';
@@ -46,9 +46,24 @@ const Footer = () => {
             <StyledH2>Contact</StyledH2>
             <ImgCont>
                 {
-                    links.map(e => (<a href={e.href}>
-                        <img alt="" src={e.icon}/>
-                    </a>))
+                    // links.map(e => (<a href={e.href}>
+                    //     <img alt="" src={e.icon}/>
+                    // </a>))
+                    links.map((e, i) => {
+                        if (e.href !== "/resume") {
+                            return (
+                                <a key={i} href={e.href}>
+                                    <img alt="" src={e.icon} />
+                                </a>
+                            )
+                        } else {
+                            return (
+                                <Link key={i} to={e.href}>
+                                    <img alt="" src={e.icon} />
+                                </Link>
+                            )
+                        }
+                    })
                 }
             </ImgCont>
         </Container>
